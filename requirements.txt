@@ -1,0 +1,13 @@
+fastai
+torch
+torchvision
+numpy
+matplotlib
+pillow
+pandas
+scipy
+google-genai
+anthropic
+segment-anything
+jupyter
+ipykernel
