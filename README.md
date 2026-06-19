@@ -1,6 +1,17 @@
+<table>
+<tr>
+<td width="240" valign="top">
+  <img src="assets/AIvory-logo.png" alt="AIvory logo" width="220">
+</td>
+<td valign="top">
+
 # Ivory Agentic Repository (Extracted from Notebook)
 
-This repository contains a minimal, GitHub-friendly split of code extracted from `Ivory_agentic.ipynb`.
+A lightweight repository extracted from `Ivory_agentic.ipynb` for cleaner GitHub use, with separate ML and agentic workflows and reusable Python modules.
+
+</td>
+</tr>
+</table>
 
 ## Structure
 
