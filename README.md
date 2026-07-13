@@ -35,4 +35,3 @@ export ANTHROPIC_API_KEY="..."
 ## Example Results
 
 ![Ivory classification example](assets/Ivory.png)
-*Example segmentation and classification results on ivory samples*
