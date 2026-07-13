@@ -7,32 +7,27 @@
 
 # Ivory Agentic Repository (Extracted from Notebook)
 
-A lightweight repository extracted from `Ivory_agentic.ipynb` for cleaner GitHub use, with separate ML and agentic workflows and reusable Python modules.
+AIvory is set of machine learning and agentic AI tools for performing image analysis for detecting illegal wildlife trade images. In particular, it contains a set of tools to detecting and classifying images of illegal ivory images and distinguishing them from bone carving objects. 
 
 </td>
 </tr>
 </table>
 
-## Structure
+## Example notebooks:
 
-- `src/ivory_repo/ml.py`: ResNet34 + fastai segmentation utilities and inference helpers.
-- `src/ivory_repo/llm.py`: Gemini and Anthropic client setup plus Gemini image classification helper.
-- `examples/ml_resnet34_inference.ipynb`: Example notebook focused on ML segmentation inference.
-- `examples/agentic_llm_workflows.ipynb`: Example notebook focused on LLM/agentic workflows.
+- `src/ivory_repo/ml.py`: ResNet34 + fastai image segmentation code for distinguishing ivory from bone objects.
+- `src/ivory_repo/llm.py`: A selection of agentic LLM tools for assisting image segmentation tasks. 
+- `examples/ml_resnet34_inference.ipynb`: Pixel-level image segmentation using a saved ResNet34 model. 
+- `examples/ivory_agentic_comparison.ipynb`: Ivory-bone image classification using a ResNet34 and an LLM model. 
 
-## Quick Start
+## Quick Start + API code setup:
 
 ```bash
 cd github_repo
 python -m pip install -r requirements.txt
 python -m pip install -e .
+# In case you get an error message related to plum-disptch, also run the following:
+python -m pip install --force-reinstall --no-cache-dir plum-dispatch
 export GOOGLE_API_KEY="..."
 export ANTHROPIC_API_KEY="..."
 ```
-
-Use the notebooks in `examples/` for end-to-end demos.
-
-## Notes
-
-- The original `Ivory_agentic.ipynb` was not modified.
-- API keys are loaded from environment variables, not hardcoded.
