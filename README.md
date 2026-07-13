@@ -33,5 +33,6 @@ export ANTHROPIC_API_KEY="..."
 ```
 
 ## Example Results
-
-![Ivory classification example](assets/Ivory.png)
+<p align="center">
+  <img src="assets/Ivory.png" alt="Ivory classification example" width="400">
+</p>
