@@ -1,7 +1,7 @@
 <table>
 <tr>
 <td width="240" valign="top">
-  <img src="assets/AIvory-logo.png" alt="AIvory logo" width="220">
+  <img src="assets/AIvory-logo2.png" alt="AIvory logo" width="220">
 </td>
 <td valign="top">
 
