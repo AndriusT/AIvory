@@ -1,13 +1,15 @@
 <table>
 <tr>
-<td width="240" valign="top">
-  <img src="assets/AIvory-logo2.png" alt="AIvory logo" width="220">
+<td width="200" valign="top">
+  <img src="assets/AIvory-logo2.png" alt="AIvory logo" width="180">
 </td>
 <td valign="top">
 
 # Ivory Agentic Repository 
 
-AIvory is a set of machine learning and agentic AI tools for performing image analysis to detect illegal wildlife trade images. In particular, it contains a set of tools for detecting and classifying images of illegal ivory and distinguishing them from bone carving objects. 
+AIvory is a set of machine learning and agentic AI tools for performing image analysis to detect illegal wildlife trade images. In particular, it contains a set of tools for detecting and classifying images of illegal ivory and distinguishing them from bone carving objects: 
+- A U-Net image segmentation model designed to distinguish ivory objects from bone at pixel-level 
+- A set of agentic AI tools designed to assist illegal wildlife image detection and classification. 
 
 </td>
 </tr>
@@ -15,12 +17,14 @@ AIvory is a set of machine learning and agentic AI tools for performing image an
 
 ## Example notebooks:
 
-- `src/ivory_repo/ml.py`: ResNet34 + fastai image segmentation code for distinguishing ivory from bone objects.
-- `src/ivory_repo/llm.py`: A selection of agentic LLM tools for assisting with image segmentation tasks.
-- `examples/ml_resnet34_inference.ipynb`: Pixel-level image segmentation using a saved ResNet34 model.
-- `examples/ivory_agentic_comparison.ipynb`: Ivory-bone image classification using a ResNet34 model and an LLM.
+- `examples/agentic_llm_workflows.ipynb`: An illustration of agentic AI applications to image segmentation tasks, e.g., detecting required objects in images to prepare for machine learning image segmentation or to provide LLM textual descriptions for a given object. 
+- `examples/Ivory_training_with_ROC.py`: The main training script that reproduces the results presented in Mozzon et al. 2026. This includes the key training scripts along with the statistical analysis.
+- `examples/ivory_agentic_comparison.ipynb`: This script contains the main comparison between the U-net classification results and a corresponding agentic AI classification for the same test images.
+- `examples/ml_resnet34_inference.ipynb`: This demonstrates the U-net image segmentation model performance on unseen test images. 
 
 ## Quick Start + API code setup:
+
+Note that the scripts that use LLMs/agentic AI require you to load Google/Anthropic/OpenAI API key to work.
 
 ```bash
 cd github_repo
