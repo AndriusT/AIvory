@@ -40,3 +40,9 @@ export ANTHROPIC_API_KEY="..."
 <p align="center">
   <img src="assets/Ivory.png" alt="Ivory classification example" width="400">
 </p>
+
+## Citations
+
+*Authors*: Simone Mozzon, Andrius Tamosiunas, David Bacon, Caroline Cox, Alan Collins
+
+Publication submitted and under review at PLOS One.
